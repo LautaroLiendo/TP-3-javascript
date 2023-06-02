@@ -33,17 +33,28 @@
 
 // ciudades[1]="barcelona"
 // ciudades.push("Paris");
-// document.write(ciudades);
+
 
 // document.write("<br>");
-// document.write("la longitud del array es"+" "+ciudades.length);
+// document.write("El arreglo de ciudades tiene"+" "+ciudades.length+" "+"elementos");
 // document.write("<br>");
+
+
+
 
 // document.write("El primer elemento es "+ciudades[0]+",");
+// document.write("<br>")
 // document.write("El tercer elemento es "+ciudades[2]+",");
+// document.write("<br>")
 // document.write("El ultimo elemento es "+ciudades[ciudades.length-1]+",")
 // document.write("<br>");
-// document.write("el elemento que ocupa la 2da posicion es"+ciudades[3]);
+// document.write("el elemento que ocupa la 2da posicion es "+ciudades[3]);
+
+// document.write("<br>")
+// document.write("<h1>"+"arreglo de ciudades"+"</h1>")
+// document.write("<br>")
+// document.write(ciudades);
+//3--------------------------------------------------------------------------------------------------
 
 
 
