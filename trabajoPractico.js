@@ -25,7 +25,7 @@
 
 // while (true) {
 //     let pedir=prompt("escribe varios nombres de ciudades");
-    
+
 //     if (pedir==null) {break;
 //     }
 //     ciudades.push(pedir);
@@ -56,6 +56,41 @@
 // document.write(ciudades);
 //3--------------------------------------------------------------------------------------------------
 
+// 3- Escribir un script que simule el lanzamiento de dos dados. Hacer uso de la función Math.random para obtener números aleatorios entre 1 y 6 para cada uno de los lanzamientos de los dados. Sumar el resultado de lanzar dos dados y anotar en un array el número de apariciones de dicha suma, repitiendo 50 veces esta operación.
+
+let sumaDados = [];
+let elementosUnicos = [];
+let apariciones = [];
+let contador = 1;
+
+
+for (let i = 0; i < 20; i++) {
+
+    let primerDado = Math.floor(Math.random() * 6) + 1;
+    let segundoDado = Math.floor(Math.random() * 6) + 1;
+
+    let suma = primerDado + segundoDado;
+    sumaDados.push(suma);
+}
+
+sumaDados.sort();
+
+for (let i = 0; i < sumaDados.length; i++) {
+    if (sumaDados[i + 1] === sumaDados[i]) {
+        contador++;
+    }
+    else {
+        elementosUnicos.push(sumaDados[i])
+        apariciones.push(contador);
+        contador = 1;
+    }
+}
+
+console.log(sumaDados);
+
+for (let j = 0; j < elementosUnicos.length; j++) {
+    console.log("La suma " + elementosUnicos[j] + " aparece " + apariciones[j] + " veces");
+}
 
 
 
