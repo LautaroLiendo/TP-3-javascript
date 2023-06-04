@@ -142,7 +142,8 @@
 
 // }
 
-//5------------------------------------------------------------------------------------------
+//6-------------------------------------------------------------------------------------------------------
+
 // 6- Solicitar por pantalla al usuario ingresar el valor de los lados de un rectángulo, luego crear una función para calcular su perímetro y mostrarlo por pantalla.
 
 // La fórmula del perímetro  es p = 2*(a +b)
@@ -157,3 +158,17 @@
 // let resultado=perimetro(numero1,numero2);
 
 // console.log("El perimetro del rectangulo es "+resultado);
+
+//7-----------------------------------------------------------------------------------------------------
+
+// let num = parseInt(prompt("Ingresa un número:"));
+
+// function tabla(pedir) {
+//   for (let i = 1; i <= 10; i++) {
+//     let resultado = num * i;
+//     console.log(num + " x " + i + " = " + resultado);
+//   }
+// }
+
+// tabla(num);
+
