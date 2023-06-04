@@ -58,39 +58,56 @@
 
 // 3- Escribir un script que simule el lanzamiento de dos dados. Hacer uso de la función Math.random para obtener números aleatorios entre 1 y 6 para cada uno de los lanzamientos de los dados. Sumar el resultado de lanzar dos dados y anotar en un array el número de apariciones de dicha suma, repitiendo 50 veces esta operación.
 
-let sumaDados = [];
-let elementosUnicos = [];
-let apariciones = [];
-let contador = 1;
+// let sumaDados = [];
+// let elementosUnicos = [];
+// let apariciones = [];
+// let contador = 1;
 
 
-for (let i = 0; i < 20; i++) {
+// for (let i = 0; i < 20; i++) {
 
-    let primerDado = Math.floor(Math.random() * 6) + 1;
-    let segundoDado = Math.floor(Math.random() * 6) + 1;
+//     let primerDado = Math.floor(Math.random() * 6) + 1;
+//     let segundoDado = Math.floor(Math.random() * 6) + 1;
 
-    let suma = primerDado + segundoDado;
-    sumaDados.push(suma);
-}
+//     let suma = primerDado + segundoDado;
+//     sumaDados.push(suma);
+// }
 
-sumaDados.sort();
+// sumaDados.sort();
 
-for (let i = 0; i < sumaDados.length; i++) {
-    if (sumaDados[i + 1] === sumaDados[i]) {
-        contador++;
-    }
-    else {
-        elementosUnicos.push(sumaDados[i])
-        apariciones.push(contador);
-        contador = 1;
-    }
-}
+// for (let i = 0; i < sumaDados.length; i++) {
+//     if (sumaDados[i + 1] === sumaDados[i]) {
+//         contador++;
+//     }
+//     else {
+//         elementosUnicos.push(sumaDados[i])
+//         apariciones.push(contador);
+//         contador = 1;
+//     }
+// }
 
-console.log(sumaDados);
+// console.log(sumaDados);
 
-for (let j = 0; j < elementosUnicos.length; j++) {
-    console.log("La suma " + elementosUnicos[j] + " aparece " + apariciones[j] + " veces");
-}
+// for (let j = 0; j < elementosUnicos.length; j++) {
+//     console.log("La suma " + elementosUnicos[j] + " aparece " + apariciones[j] + " veces");
+// }
+
+//4-------------------------------------------------------------------------------------------------
+// 4- Escribir el código de una función a la que se pasa como parámetro un número entero y devuelve como resultado una cadena de texto que indica si el número es par o impar. Mostrar por pantalla el resultado devuelto por la función.
+
+// let pedir = Math.floor(parseInt(prompt("ingrese un numero")))
+
+// if (isNaN(pedir) == true) {
+//     document.write("ingrese un numero valido")
+// }
+// else {
+//     if (pedir % 2 === 0) {
+//         document.write("El numero " + pedir + " es par");
+//     }
+//     else {
+//         document.write("El numero " + pedir + " es impar");
+//     }
+// }
 
 
 
