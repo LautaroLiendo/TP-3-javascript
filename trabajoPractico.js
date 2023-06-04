@@ -113,5 +113,32 @@
 
 // let resultado = parImpar(pedir)
 
+//5-------------------------------------------------------------------------------------------------
+// 5- Definir una función que muestre información sobre una cadena de texto que se le pasa como argumento. A partir de la cadena que se le pasa, la función determina si esa cadena está formada sólo por mayúsculas, sólo por minúsculas o por una mezcla de ambas.
 
+// let pedir = prompt("ingrese una cadena")
+
+// function tieneMayusculas(pedir) {
+//     return /[A-Z]/.test(pedir);
+
+// }
+
+// function tieneMinusculas(pedir) {
+//     return /[a-z]/.test(pedir);
+// }
+
+// if (tieneMayusculas(pedir) && tieneMinusculas(pedir) == true) {
+//     console.log("La cadena tiene mayusculas y minusculas");
+// }
+// else {
+
+//     if (tieneMayusculas(pedir) === true) {
+//         console.log("La cadena tiene mayusuculas");
+//     }
+
+//     if (tieneMinusculas(pedir) === true) {
+//         console.log("la cadena tiene minusculas");
+//     }
+
+// }
 
