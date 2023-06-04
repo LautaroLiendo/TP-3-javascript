@@ -97,18 +97,21 @@
 
 // let pedir = Math.floor(parseInt(prompt("ingrese un numero")))
 
-// if (isNaN(pedir) == true) {
-//     document.write("ingrese un numero valido")
-// }
-// else {
-//     if (pedir % 2 === 0) {
-//         document.write("El numero " + pedir + " es par");
+// function parImpar(pedir) {
+//     if (isNaN(pedir) == true) {
+//         document.write("ingrese un numero valido")
 //     }
 //     else {
-//         document.write("El numero " + pedir + " es impar");
-//     }
+//         if (pedir % 2 === 0) {
+//             document.write("El numero " + pedir + " es par");
+//         }
+//         else {
+//             document.write("El numero " + pedir + " es impar");
+//         }
+//     }    
 // }
 
+// let resultado = parImpar(pedir)
 
 
 
